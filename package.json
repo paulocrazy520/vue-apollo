@@ -1,0 +1,12 @@
+{
+  "name": "root",
+  "private": true,
+  "license": "MIT",
+  "author": {
+    "name": "Dayton Bobbitt",
+    "url": "https://github.com/dayton-bobbitt"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}

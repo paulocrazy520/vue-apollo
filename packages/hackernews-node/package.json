@@ -1,0 +1,36 @@
+{
+  "name": "hackernews-node",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Backend for Hackernews clone built using graphql-node",
+  "scripts": {
+    "prestart": "prisma generate",
+    "start": "nodemon ./src/index.js"
+  },
+  "dependencies": {
+    "@graphql-tools/schema": "^8.1.2",
+    "@prisma/client": "^2.28.0",
+    "apollo-server-core": "^3.3.0",
+    "apollo-server-express": "^3.3.0",
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "graphql": "^15.5.1",
+    "graphql-subscriptions": "^1.2.1",
+    "jsonwebtoken": "^8.5.1",
+    "subscriptions-transport-ws": "^0.9.19"
+  },
+  "devDependencies": {
+    "eslint": "^6.7.2",
+    "nodemon": "^2.0.12",
+    "prisma": "^2.28.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "eslint:recommended"
+    ]
+  }
+}
