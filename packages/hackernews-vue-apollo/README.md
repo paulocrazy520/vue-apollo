@@ -25,5 +25,4 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 
 ###To Markus 
-All csv fiels for esline are stores ./json.rar
-Received?
+Here-how much get percentage if it is usdt and delay time~
